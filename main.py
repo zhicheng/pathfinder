@@ -1,4 +1,4 @@
-/* This is a public domain A* pathfinder implement write by Zhicheng Wei @ Youpin */
+#/* This is a public domain A* pathfinder implement write by Zhicheng Wei @ Youpin */
 from OpenGL.GL import *
 from OpenGL.GLU import *
 from OpenGL.GLUT import *
