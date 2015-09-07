@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Werror -ansi -pedantic
+CFLAGS = -Wall -ansi -pedantic
 PROG = main
 
 SRCS = main.c 
@@ -12,7 +12,7 @@ endif
 
 all: $(PROG)
 
-$(PROG):	$(SRCS)
+$(PROG): $(SRCS)
 	$(CC) $(CFLAGS) -o $(PROG) $(SRCS) $(LIBS)
 
 clean:

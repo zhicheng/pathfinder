@@ -1,15 +1,13 @@
-	A* Pathfinder Implement
+	A* Pathfinder
 
 run python version (PyOpenGL required)
 
-python main.py 
+	python main.py 
 
 or C version (OpenGL and GLUT required)
 
-make
-./main
+	make
+	./main
 
-enjoy
-
-PS: any advise is welcome
-
+License:
+Public Domain
